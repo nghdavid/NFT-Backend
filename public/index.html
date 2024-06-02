@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="request.js"></script>
+  <script src="constant.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+  <h1 id="header">Connect to Metamask</h1>
+  <h3 id="header">Please switch to arbitrum sepolia network</h3>
+  <button class="connect"> Connect</button>
+  <h2> Address: <span class="showAccount"></span></h2>
+  <h2>ETH Balance: <span class="showETHBalance"></span></h2>
+  <button id="merkle" class="merkle"> Random Mint by merkle tree</button>
+  <button id="signature" class="signature"> Random Mint by signature</button>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
