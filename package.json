@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "@openzeppelin/merkle-tree": "^1.0.6",
+    "dotenv": "^16.4.5",
     "ethers": "^6.12.1",
     "express": "^4.19.2"
   },
