@@ -14,7 +14,7 @@
 - Openzeppelin/merkle-tree
 
 ## How to start my project
-- Install Node.js(v20.12.2)
+- Install Node.js (v20.12.2)
 - Run: npm i
 - Create .env
 - Run utils/generate_merkle_tree.js
