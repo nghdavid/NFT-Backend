@@ -19,4 +19,4 @@
 - Create .env
 - Run utils/generate_merkle_tree.js
 - Move tree.json to main directory
-- node app.js
+- node app.js or docker-compose up -d
