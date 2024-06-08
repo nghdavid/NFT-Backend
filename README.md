@@ -19,4 +19,5 @@
 - Create .env
 - Run utils/generate_merkle_tree.js
 - Move tree.json to main directory
+- Change addressNFT in public/constant.js
 - node app.js or docker-compose up -d
