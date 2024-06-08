@@ -1,20 +1,20 @@
-# Use the official Node.js v20 image as a base image
+# Use the official Node.js v20 image from the Docker Hub
 FROM node:20
 
-# Create and set the working directory
-WORKDIR /usr/src/app
+# Create and change to the app directory
+WORKDIR /app
 
-# Copy the package.json and package-lock.json files to the working directory
+# Copy package.json and package-lock.json
 COPY package*.json ./
 
-# Install the dependencies
+# Install dependencies
 RUN npm install
 
-# Copy the rest of the application code to the working directory
+# Copy the rest of the application code
 COPY . .
 
-# Expose the port that the app runs on
+# Expose the port the app runs on
 EXPOSE 3000
 
-# Start the application
+# Define the command to run the app
 CMD ["node", "app.js"]
